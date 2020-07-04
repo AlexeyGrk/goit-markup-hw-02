@@ -3,26 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Web Studio</title>
   </head>
   <body>
+    <!-- roboto 500
+    roboto 900 
+    roboto bold
+     roboto normal
+     -->
     <!-- Шапка сайта -->
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="main-nav">
         <a href="/" class="logo">
           <img src="./images/WebStudio.svg" alt="логотип" />
         </a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-item-link" href="/">Студия</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-item-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-item-link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <address class="adress-main">
+        <ul class="adress-list">
+          <li class="adress-item">
+            <a class="adress-item-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="adress-item">
+            <a class="adress-item-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -100,7 +124,7 @@
             <p>Product Designer</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com">
+                <a target="_blank" href="https://www.instagram.com">
                   <img
                     src="./images/Vector-instagram.svg"
                     alt="иконка инстаграм"
@@ -108,17 +132,17 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-twr.svg" alt="иконка твиттера"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-fb.svg" alt="иконка фб"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-lid.svg" alt="иконка линкедына"
                 /></a>
               </li>
@@ -130,7 +154,7 @@
             <p>Frontend Developer</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com">
+                <a target="_blank" href="https://www.instagram.com">
                   <img
                     src="./images/Vector-instagram.svg"
                     alt="иконка инстаграм"
@@ -138,17 +162,17 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-twr.svg" alt="иконка твиттера"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-fb.svg" alt="иконка фб"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-lid.svg" alt="иконка линкедына"
                 /></a>
               </li>
@@ -160,7 +184,7 @@
             <p>Marketing</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com">
+                <a target="_blank" href="https://www.instagram.com">
                   <img
                     src="./images/Vector-instagram.svg"
                     alt="иконка инстаграм"
@@ -168,17 +192,17 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-twr.svg" alt="иконка твиттера"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-fb.svg" alt="иконка фб"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-lid.svg" alt="иконка линкедына"
                 /></a>
               </li>
@@ -190,7 +214,7 @@
             <p>UI Designer</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com">
+                <a target="_blank" href="https://www.instagram.com">
                   <img
                     src="./images/Vector-instagram.svg"
                     alt="иконка инстаграм"
@@ -198,17 +222,17 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-twr.svg" alt="иконка твиттера"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-fb.svg" alt="иконка фб"
                 /></a>
               </li>
               <li>
-                <a href="#">
+                <a target="_blank" href="#">
                   <img src="./images/Vector-lid.svg" alt="иконка линкедына"
                 /></a>
               </li>
@@ -216,51 +240,58 @@
           </li>
         </ul>
       </section>
+      <!-- Постоянные клиенты -->
       <section>
         <h2>Постоянные клиенты</h2>
         <ul>
           <li>
-            <a href="#">
+            <a target="_blank" href="#">
               <img src="./images/клиенты-лого/logo-1.svg" alt="клиент-1-лого"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a target="_blank" target="_blank" href="#"
               ><img src="./images/клиенты-лого/logo-2.svg" alt="клиент-2-лого"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a target="_blank" href="#"
               ><img src="./images/клиенты-лого/logo-3.svg" alt="клиент-3-лого"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a target="_blank" href="#"
               ><img src="./images/клиенты-лого/logo-4.svg" alt="клиент-4-лого"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a target="_blank" href="#"
               ><img src="./images/клиенты-лого/logo-5.svg" alt="клиент-5-лого"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a target="_blank" href="#"
               ><img src="./images/клиенты-лого/logo-6.svg" alt="клиент-6-лого"
             /></a>
           </li>
         </ul>
       </section>
     </main>
+    <!-- Подвал сайта -->
     <footer>
+      <!-- логотип футер -->
       <div>
         <a href="/">
           <img src="./images/WebStudio.svg" alt="логотип" />
         </a>
         <address>
+          <!-- Контактная информация -->
           <ul>
             <li>
-              <a href="https://goo.gl/maps/2NKbzkvfWFXUUTUt6" target="_blank"
+              <a
+                target="_blank"
+                href="https://goo.gl/maps/2NKbzkvfWFXUUTUt6"
+                target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
@@ -273,22 +304,22 @@
         <b>ПРИСОЕДЕНЯЙТЕСЬ</b>
         <ul>
           <li>
-            <a href="https://www.instagram.com">
+            <a target="_blank" href="https://www.instagram.com">
               <img src="./images/Vector-instagram.svg" alt="иконка инстаграм" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a target="_blank" href="#">
               <img src="./images/Vector-twr.svg" alt="иконка твиттера"
             /></a>
           </li>
           <li>
-            <a href="#">
+            <a target="_blank" href="#">
               <img src="./images/Vector-fb.svg" alt="иконка фб"
             /></a>
           </li>
           <li>
-            <a href="#">
+            <a target="_blank" href="#">
               <img src="./images/Vector-lid.svg" alt="иконка линкедына"
             /></a>
           </li>
