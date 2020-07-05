@@ -1,6 +1,40 @@
 :root {
   --accent-color: #2196f3;
+  --main-color-text: #757575;
+  --main-color-title: #212121;
+  --primary-white-color: #ffffff;
+  --grand-title-color: #ffffff;
 }
+body {
+  background-color: var(--primary-white-color);
+  color: var(--main-color-text);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+h2,
+h3,
+h4 {
+  color: var(--main-color-title);
+}
+.main-nav-item,
+.adress-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.main-nav-item-link {
+  color: var(--main-color-title);
+}
+.adress-item-link {
+  color: var(--main-color-text);
+}
+.adress-item-link:hover,
+.adress-item-link:focus {
+  color: var(--accent-color);
+}
+
 .main-nav-item-link:hover,
 .main-nav-item-link:focus {
   color: var(--accent-color);
